@@ -36,7 +36,7 @@ Desconocido
 ; Unknown
 ;
 MSG_TABLE_SIGNATURE
-Firma de tabla 
+Firma de tabla
 ; Table signature
 ;
 MSG_REVISION
@@ -56,7 +56,7 @@ ID creador
 ; Creator ID
 ;
 MSG_PM_PROFILE
-Perfil preferido del sistema 
+Perfil preferido del sistema
 ; Preferred system profile
 ;
 MSG_SCI_INT
@@ -76,7 +76,7 @@ Comando deshabilitar ACPI
 ; ACPI Disable command
 ;
 MSG_S4BIOS
-Introduce comando del estado S4BIOS  
+Introduce comando del estado S4BIOS
 ; Enter S4BIOS state command
 ;
 MSG_PSTATE
@@ -136,7 +136,7 @@ Espacio desconocido
 ; Unknown space
 ;
 MSG_FMT_UNKNOWN_SPACE
-en espacio desconocido (%u) 
+en espacio desconocido (%u)
 ;  in unknown space (%u)
 ;
 MSG_FMT_KNOWN_SPACE
@@ -164,7 +164,7 @@ Dirección APIC local
 ; Local APIC address
 ;
 MSG_PCAT_COMPAT
-Tiene PIC 8259 PC-AT 
+Tiene PIC 8259 PC-AT
 ; Has 8259 PC-AT PIC
 ;
 MSG_LOCAL_APIC
@@ -224,7 +224,7 @@ Disparador
 ;   Trigger
 ;
 MSG_NMI_SRC
-Fuente NMI 
+Fuente NMI
 ; NMI source
 ;
 MSG_LAPIC_NMI
@@ -244,7 +244,7 @@ Entrada de interrupción local
 ; Local interrupt input
 ;
 MSG_LAPIC_ADDR_OVR
-Invalidar la dirección local del APIC 
+Invalidar la dirección local del APIC
 ; Local APIC address override
 ;
 MSG_IOSAPIC
@@ -336,7 +336,7 @@ Capaz de reemplazar sistema heredado
 ; Legacy replacement capable
 ;
 MSG_PCI_VENDOR
-PCI Vendor ID 
+PCI Vendor ID
 ; PCI Vendor ID
 ;
 MSG_BASE_ADDRESS
@@ -416,11 +416,11 @@ ID único
 ; Unique ID
 ;
 MSG_SCI_GPE_BIT
-bit SCI GPE 
+bit SCI GPE
 ; SCI GPE bit
 ;
 MSG_NAMESPACE_ID
-ID del espacio de nombres 
+ID del espacio de nombres
 ; Namespace ID
 ;
 MSG_MCFG_BASE_ADDRESS

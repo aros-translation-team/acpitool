@@ -136,7 +136,7 @@ Espazio ezezaguna
 ; Unknown space
 ;
 MSG_FMT_UNKNOWN_SPACE
-espazio ezezegunean (%u) 
+espazio ezezegunean (%u)
 ;  in unknown space (%u)
 ;
 MSG_FMT_KNOWN_SPACE
@@ -152,7 +152,7 @@ Ez
 ; No
 ;
 MSG_PC_FLAGS
-PC arkitekturaren flagak 
+PC arkitekturaren flagak
 ; PC Architecture flags
 ;
 MSG_FF_FLAGS
@@ -336,7 +336,7 @@ Oinarrizko sistema ordezkatzeko gai
 ; Legacy replacement capable
 ;
 MSG_PCI_VENDOR
-PCI saltzailearen ID 
+PCI saltzailearen ID
 ; PCI Vendor ID
 ;
 MSG_BASE_ADDRESS
@@ -352,7 +352,7 @@ Erlojuaren gutxieneko tick
 ; Minimum clock tick
 ;
 MSG_PAGE_PROTECT
-Orriaren babespena 
+Orriaren babespena
 ; Page protection
 ;
 MSG_OEM_ATTRS
