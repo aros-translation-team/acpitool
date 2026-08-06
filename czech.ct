@@ -1,0 +1,440 @@
+## version $VER: acpitool.catalog 2.0 (06.08.2026)
+## language czech
+## codeset 5
+;
+MSG_TITLE
+ACPI Tool
+; ACPI Tool
+;
+MSG_WINTITLE
+ACPI Tool
+; ACPI Tool
+;
+MSG_DESCRIPTION
+Dotazování a správa ACPI
+; ACPI querying and managment
+;
+MSG_ERROR_LOCALE
+Nelze inicializovat systém lokalizace.
+; Can't open locale
+;
+MSG_ERROR_OK
+OK
+; Ok
+;
+MSG_ERROR_HEADER
+Chyba
+; ERROR
+;
+MSG_ERROR_NO_ACPI
+Tento poèítaè nemá ACPI, nebo je podpora ACPI vypnuta
+; This machine has no ACPI, or ACPI support has been disabled
+;
+MSG_UNKNOWN
+neznámý
+; Unknown
+;
+MSG_TABLE_SIGNATURE
+Signatura tabulky
+; Table signature
+;
+MSG_REVISION
+Revize
+; Revision
+;
+MSG_OEM_ID
+ID OEM
+; OEM ID
+;
+MSG_OEM_TABLE_ID
+ID tabulky OEM
+; OEM Table ID
+;
+MSG_CREATOR_ID
+ID tvùrce
+; Creator ID
+;
+MSG_PM_PROFILE
+Preferovaný profil systému
+; Preferred system profile
+;
+MSG_SCI_INT
+Pøeru¹ení SCI
+; SCI interrupt
+;
+MSG_SMI_CMD
+Registr pøíkazù SMI
+; SMI command register
+;
+MSG_ACPI_ENABLE
+Pøíkaz zapnutí ACPI
+; ACPI Enable command
+;
+MSG_ACPI_DISABLE
+Pøíkaz vypnutí ACPI
+; ACPI Disable command
+;
+MSG_S4BIOS
+Pøíkaz pøechodu do stavu S4BIOS
+; Enter S4BIOS state command
+;
+MSG_PSTATE
+Pøíkaz stavu výkonu procesoru
+; Processor performance state command
+;
+MSG_FLUSH_SIZE
+Velikost vyprázdnìní vyrovnávací pamìti CPU
+; CPU Cache flush size
+;
+MSG_FLUSH_STRIDE
+Krok vyprázdnìní vyrovnávací pamìti CPU
+; CPU Cache flush stride
+;
+MSG_RTC_DAY_ALARM
+Offset dne alarmu RTC
+; RTC alarm day offset
+;
+MSG_RTC_MON_ALARM
+Offset mìsíce alarmu RTC
+; RTC alarm month offset
+;
+MSG_RTC_CENTURY
+Offset století RTC
+; RTC century offset
+;
+MSG_RESET_REG
+Adresa resetovacího registru
+; Reset register address
+;
+MSG_RESET_VAL
+Hodnota resetu
+; Reset value
+;
+MSG_UNKNOWN_SIZE
+Neznámá velikost
+; Unknown size
+;
+MSG_AT
+na
+; at
+;
+MSG_BITS
+bitech
+; bits
+;
+MSG_SPACE_FIXED
+Pevný hardware
+; Fixed hardware
+;
+MSG_SPACE_OEM
+Prostor OEM
+; OEM space
+;
+MSG_SPACE_UNKNOWN
+Neznámý prostor
+; Unknown space
+;
+MSG_FMT_UNKNOWN_SPACE
+ v neznámém prostoru (%u)
+;  in unknown space (%u)
+;
+MSG_FMT_KNOWN_SPACE
+ v %s
+;  in %s
+;
+MSG_YES
+Ano
+; Yes
+;
+MSG_NO
+Ne
+; No
+;
+MSG_PC_FLAGS
+Pøíznaky architektury PC
+; PC Architecture flags
+;
+MSG_FF_FLAGS
+Pøíznaky pevných funkcí
+; Fixed Feature flags
+;
+MSG_LAPIC_ADDR
+Adresa lokálního APIC
+; Local APIC address
+;
+MSG_PCAT_COMPAT
+Má PIC 8259 PC-AT
+; Has 8259 PC-AT PIC
+;
+MSG_LOCAL_APIC
+Lokální APIC
+; Local APIC
+;
+MSG_CPU_ID
+ID procesoru ACPI
+; ACPI Processor ID
+;
+MSG_LAPIC_ID
+ID lokálního APIC
+; Local APIC ID
+;
+MSG_ENABLED
+Zapnuto
+; Enabled
+;
+MSG_IOAPIC
+I/O APIC
+; I/O APIC
+;
+MSG_ID
+ID
+; ID
+;
+MSG_ADDRESS
+Adresa
+; Address
+;
+MSG_IRQ_BASE
+Báze globálních systémových IRQ
+; Global system IRQ base
+;
+MSG_INT_SRC_OVR
+Pøepsání zdroje pøeru¹ení
+; Interrupt source override
+;
+MSG_BUS
+  Sbìrnice
+;   Bus
+;
+MSG_BUS_IRQ
+IRQ sbìrnice
+; Bus IRQ
+;
+MSG_GLOBAL_IRQ
+Globální systémové IRQ
+; Global system IRQ
+;
+MSG_POLARITY
+  Polarita
+;   Polarity
+;
+MSG_TRIGGER
+  Spou¹tìní
+;   Trigger
+;
+MSG_NMI_SRC
+Zdroj NMI
+; NMI source
+;
+MSG_LAPIC_NMI
+NMI lokálního APIC
+; Local APIC NMI
+;
+MSG_DEST_ID
+ACPI ID cílového procesoru
+; Destination processor ACPI ID
+;
+MSG_ALL
+V¹e
+; All
+;
+MSG_LINT
+Vstup lokálního pøeru¹ení
+; Local interrupt input
+;
+MSG_LAPIC_ADDR_OVR
+Pøepsání adresy lokálního APIC
+; Local APIC address override
+;
+MSG_IOSAPIC
+I/O SAPIC
+; I/O SAPIC
+;
+MSG_LSAPIC
+Lokální SAPIC
+; Local SAPIC
+;
+MSG_LSAPIC_ID
+ID lokálního SAPIC
+; Local SAPIC ID
+;
+MSG_LSAPIC_EID
+EID lokálního SAPIC
+; Local SAPIC EID
+;
+MSG_PLAT_INT_SRC
+Zdroj pøeru¹ení platformy
+; Platform interrupt source
+;
+MSG_PLAT_INT_TYPE
+  Typ pøeru¹ení
+;   Interrupt type
+;
+MSG_DEST_LSAPIC_ID
+ID cílového LSAPIC
+; Destination LSAPIC ID
+;
+MSG_DEST_EID
+EID cílového LSAPIC
+; Destination LSAPIC EID
+;
+MSG_IOSAPIC_VECTOR
+Vektor I/O SAPIC
+; I/O SAPIC vector
+;
+MSG_CPEI_PROC_OVR
+Pøepsání procesoru pro pøeru¹ení CPE
+; CPE interrupt processor override
+;
+MSG_LOCAL_X2APIC
+Lokální X2APIC
+; Local X2APIC
+;
+MSG_X2APIC_ID
+ID lokálního X2APIC
+; Local X2APIC ID
+;
+MSG_CPU_UID
+UID procesoru ACPI
+; ACPI Processor UID
+;
+MSG_X2APIC_NMI
+NMI X2APIC
+; X2APIC NMI
+;
+MSG_UNKNOWN_ENTRY
+Neznámá polo¾ka (%u), %u bajtù
+; Unknown entry (%u), %u bytes
+;
+MSG_RSDP_ADDR
+Adresa RSDP
+; RSDP address
+;
+MSG_SYSTEM_OEM_ID
+ID OEM systému
+; System OEM ID
+;
+MSG_ACPI_REVISION
+Revize ACPI
+; ACPI Revision
+;
+MSG_HW_REVISION
+Revize hardwaru
+; Hardware Revision
+;
+MSG_NUM_COMPARATORS
+Poèet komparátorù
+; Number of comparators
+;
+MSG_64BIT_COUNTER
+64bitový èítaè
+; 64-bit counter
+;
+MSG_LEGACY_REPLACEMENT
+Podporuje náhradu star¹ích èasovaèù
+; Legacy replacement capable
+;
+MSG_PCI_VENDOR
+ID výrobce PCI
+; PCI Vendor ID
+;
+MSG_BASE_ADDRESS
+Bázová adresa
+; Base address
+;
+MSG_NUMBER
+Èíslo
+; Number
+;
+MSG_MIN_TICK
+Minimální tik hodin
+; Minimum clock tick
+;
+MSG_PAGE_PROTECT
+Ochrana stránek
+; Page protection
+;
+MSG_OEM_ATTRS
+Atributy OEM
+; OEM Attributes
+;
+MSG_SHOW_MODE
+Zobrazit:
+; Show:
+;
+MSG_SAVE_DATA
+Ulo¾it data
+; Save data
+;
+MSG_MENU_PROJECT
+Projekt
+; Project
+;
+MSG_MENU_QUIT
+Ukonèit
+; Quit
+;
+MSG_MENU_DUMP
+Úplný výpis
+; Full dump
+;
+MSG_MENU_DUMP_PARSED
+Zpracovaná data
+; Parsed data
+;
+MSG_MENU_DUMP_RAW
+Surový výpis
+; Raw dump
+;
+MSG_BATT_WARN
+Úroveò varování
+; Warning level
+;
+MSG_BATT_LOW
+Nízká úroveò
+; Low level
+;
+MSG_BATT_CRITICAL
+Kritická úroveò
+; Critical level
+;
+MSG_MWH
+mWh
+; mWh
+;
+MSG_CMD_REG
+Registr pøíkazù/stavu
+; Command/status register
+;
+MSG_DATA_REG
+Datový registr
+; Data register
+;
+MSG_UID
+Jedineèné ID
+; Unique ID
+;
+MSG_SCI_GPE_BIT
+Bit SCI GPE
+; SCI GPE bit
+;
+MSG_NAMESPACE_ID
+ID jmenného prostoru
+; Namespace ID
+;
+MSG_MCFG_BASE_ADDRESS
+Bázová adresa
+; Base address
+;
+MSG_MCFG_SEGMENT
+Èíslo skupiny segmentù PCI
+; PCI segment group number
+;
+MSG_MCFG_START_BUS_NUMBER
+Èíslo poèáteèní sbìrnice PCI
+; Starting PCI Bus number
+;
+MSG_MCFG_END_BUS_NUMBER
+Èíslo koncové sbìrnice PCI
+; Final PCI Bus number
+;

@@ -1,0 +1,440 @@
+## version $VER: acpitool.catalog 2.0 (06.08.2026)
+## language magyar
+## codeset 5
+;
+MSG_TITLE
+ACPI eszköz
+; ACPI Tool
+;
+MSG_WINTITLE
+ACPI eszköz
+; ACPI Tool
+;
+MSG_DESCRIPTION
+ACPI lekérdezés és kezelés
+; ACPI querying and managment
+;
+MSG_ERROR_LOCALE
+Nem lehet megnyitni a locale-t
+; Can't open locale
+;
+MSG_ERROR_OK
+Rendben
+; Ok
+;
+MSG_ERROR_HEADER
+HIBA
+; ERROR
+;
+MSG_ERROR_NO_ACPI
+Ebben a gépben nincs ACPI, vagy az ACPI támogatás le van tiltva
+; This machine has no ACPI, or ACPI support has been disabled
+;
+MSG_UNKNOWN
+Ismeretlen
+; Unknown
+;
+MSG_TABLE_SIGNATURE
+Tábla szignatúra
+; Table signature
+;
+MSG_REVISION
+Változat
+; Revision
+;
+MSG_OEM_ID
+OEM azonosító
+; OEM ID
+;
+MSG_OEM_TABLE_ID
+OEM tábla azonosító
+; OEM Table ID
+;
+MSG_CREATOR_ID
+Létrehozó azonosító
+; Creator ID
+;
+MSG_PM_PROFILE
+Elõnyben részesített rendszerprofil
+; Preferred system profile
+;
+MSG_SCI_INT
+SCI megszakítás
+; SCI interrupt
+;
+MSG_SMI_CMD
+SMI parancsregiszter
+; SMI command register
+;
+MSG_ACPI_ENABLE
+ACPI engedélyezõ parancs
+; ACPI Enable command
+;
+MSG_ACPI_DISABLE
+ACPI letiltó parancs
+; ACPI Disable command
+;
+MSG_S4BIOS
+S4BIOS állapotba lépés parancs
+; Enter S4BIOS state command
+;
+MSG_PSTATE
+Processzor teljesítményállapot parancs
+; Processor performance state command
+;
+MSG_FLUSH_SIZE
+CPU gyorsítótár ürítési méret
+; CPU Cache flush size
+;
+MSG_FLUSH_STRIDE
+CPU gyorsítótár ürítési lépésköz
+; CPU Cache flush stride
+;
+MSG_RTC_DAY_ALARM
+RTC ébresztés nap eltolás
+; RTC alarm day offset
+;
+MSG_RTC_MON_ALARM
+RTC ébresztés hónap eltolás
+; RTC alarm month offset
+;
+MSG_RTC_CENTURY
+RTC évszázad eltolás
+; RTC century offset
+;
+MSG_RESET_REG
+Reset regiszter címe
+; Reset register address
+;
+MSG_RESET_VAL
+Reset érték
+; Reset value
+;
+MSG_UNKNOWN_SIZE
+Ismeretlen méret
+; Unknown size
+;
+MSG_AT
+@
+; at
+;
+MSG_BITS
+bit
+; bits
+;
+MSG_SPACE_FIXED
+Rögzített hardver
+; Fixed hardware
+;
+MSG_SPACE_OEM
+OEM tér
+; OEM space
+;
+MSG_SPACE_UNKNOWN
+Ismeretlen tér
+; Unknown space
+;
+MSG_FMT_UNKNOWN_SPACE
+ ismeretlen térben (%u)
+;  in unknown space (%u)
+;
+MSG_FMT_KNOWN_SPACE
+ ebben: %s
+;  in %s
+;
+MSG_YES
+Igen
+; Yes
+;
+MSG_NO
+Nem
+; No
+;
+MSG_PC_FLAGS
+PC architektúra jelzõk
+; PC Architecture flags
+;
+MSG_FF_FLAGS
+Rögzített funkciójelzõk
+; Fixed Feature flags
+;
+MSG_LAPIC_ADDR
+Helyi APIC cím
+; Local APIC address
+;
+MSG_PCAT_COMPAT
+Van 8259 PC-AT PIC
+; Has 8259 PC-AT PIC
+;
+MSG_LOCAL_APIC
+Helyi APIC
+; Local APIC
+;
+MSG_CPU_ID
+ACPI processzorazonosító
+; ACPI Processor ID
+;
+MSG_LAPIC_ID
+Helyi APIC azonosító
+; Local APIC ID
+;
+MSG_ENABLED
+Bekapcsolva
+; Enabled
+;
+MSG_IOAPIC
+I/O APIC
+; I/O APIC
+;
+MSG_ID
+Azonosító
+; ID
+;
+MSG_ADDRESS
+Cím
+; Address
+;
+MSG_IRQ_BASE
+Globális rendszer IRQ bázis
+; Global system IRQ base
+;
+MSG_INT_SRC_OVR
+Megszakításforrás felülbírálás
+; Interrupt source override
+;
+MSG_BUS
+  Busz
+;   Bus
+;
+MSG_BUS_IRQ
+Busz IRQ
+; Bus IRQ
+;
+MSG_GLOBAL_IRQ
+Globális rendszer IRQ
+; Global system IRQ
+;
+MSG_POLARITY
+  Polaritás
+;   Polarity
+;
+MSG_TRIGGER
+  Trigger
+;   Trigger
+;
+MSG_NMI_SRC
+NMI forrás
+; NMI source
+;
+MSG_LAPIC_NMI
+Helyi APIC NMI
+; Local APIC NMI
+;
+MSG_DEST_ID
+Cél processzor ACPI azonosítója
+; Destination processor ACPI ID
+;
+MSG_ALL
+Mind
+; All
+;
+MSG_LINT
+Helyi megszakítás bemenet
+; Local interrupt input
+;
+MSG_LAPIC_ADDR_OVR
+Helyi APIC cím felülbírálás
+; Local APIC address override
+;
+MSG_IOSAPIC
+I/O SAPIC
+; I/O SAPIC
+;
+MSG_LSAPIC
+Helyi SAPIC
+; Local SAPIC
+;
+MSG_LSAPIC_ID
+Helyi SAPIC azonosító
+; Local SAPIC ID
+;
+MSG_LSAPIC_EID
+Helyi SAPIC EID
+; Local SAPIC EID
+;
+MSG_PLAT_INT_SRC
+Platform megszakításforrás
+; Platform interrupt source
+;
+MSG_PLAT_INT_TYPE
+  Megszakítás típusa
+;   Interrupt type
+;
+MSG_DEST_LSAPIC_ID
+Cél LSAPIC azonosító
+; Destination LSAPIC ID
+;
+MSG_DEST_EID
+Cél LSAPIC EID
+; Destination LSAPIC EID
+;
+MSG_IOSAPIC_VECTOR
+I/O SAPIC vektor
+; I/O SAPIC vector
+;
+MSG_CPEI_PROC_OVR
+CPE megszakítás processzor felülbírálás
+; CPE interrupt processor override
+;
+MSG_LOCAL_X2APIC
+Helyi X2APIC
+; Local X2APIC
+;
+MSG_X2APIC_ID
+Helyi X2APIC azonosító
+; Local X2APIC ID
+;
+MSG_CPU_UID
+ACPI processzor UID
+; ACPI Processor UID
+;
+MSG_X2APIC_NMI
+X2APIC NMI
+; X2APIC NMI
+;
+MSG_UNKNOWN_ENTRY
+Ismeretlen bejegyzés (%u), %u bájt
+; Unknown entry (%u), %u bytes
+;
+MSG_RSDP_ADDR
+RSDP cím
+; RSDP address
+;
+MSG_SYSTEM_OEM_ID
+Rendszer OEM azonosító
+; System OEM ID
+;
+MSG_ACPI_REVISION
+ACPI változat
+; ACPI Revision
+;
+MSG_HW_REVISION
+Hardver változat
+; Hardware Revision
+;
+MSG_NUM_COMPARATORS
+Komparátorok száma
+; Number of comparators
+;
+MSG_64BIT_COUNTER
+64 bites számláló
+; 64-bit counter
+;
+MSG_LEGACY_REPLACEMENT
+Legacy helyettesítésre képes
+; Legacy replacement capable
+;
+MSG_PCI_VENDOR
+PCI gyártóazonosító
+; PCI Vendor ID
+;
+MSG_BASE_ADDRESS
+Báziscím
+; Base address
+;
+MSG_NUMBER
+Szám
+; Number
+;
+MSG_MIN_TICK
+Minimális órajelütés
+; Minimum clock tick
+;
+MSG_PAGE_PROTECT
+Lapvédelem
+; Page protection
+;
+MSG_OEM_ATTRS
+OEM attribútumok
+; OEM Attributes
+;
+MSG_SHOW_MODE
+Megjelenítés:
+; Show:
+;
+MSG_SAVE_DATA
+Adatok mentése
+; Save data
+;
+MSG_MENU_PROJECT
+Projekt
+; Project
+;
+MSG_MENU_QUIT
+Kilépés
+; Quit
+;
+MSG_MENU_DUMP
+Teljes kiírás
+; Full dump
+;
+MSG_MENU_DUMP_PARSED
+Feldolgozott adatok
+; Parsed data
+;
+MSG_MENU_DUMP_RAW
+Nyers kiírás
+; Raw dump
+;
+MSG_BATT_WARN
+Figyelmeztetési szint
+; Warning level
+;
+MSG_BATT_LOW
+Alacsony szint
+; Low level
+;
+MSG_BATT_CRITICAL
+Kritikus szint
+; Critical level
+;
+MSG_MWH
+mWh
+; mWh
+;
+MSG_CMD_REG
+Parancs/állapot regiszter
+; Command/status register
+;
+MSG_DATA_REG
+Adatregiszter
+; Data register
+;
+MSG_UID
+Egyedi azonosító
+; Unique ID
+;
+MSG_SCI_GPE_BIT
+SCI GPE bit
+; SCI GPE bit
+;
+MSG_NAMESPACE_ID
+Névtér azonosító
+; Namespace ID
+;
+MSG_MCFG_BASE_ADDRESS
+Báziscím
+; Base address
+;
+MSG_MCFG_SEGMENT
+PCI szegmenscsoport száma
+; PCI segment group number
+;
+MSG_MCFG_START_BUS_NUMBER
+Kezdõ PCI busz száma
+; Starting PCI Bus number
+;
+MSG_MCFG_END_BUS_NUMBER
+Utolsó PCI busz száma
+; Final PCI Bus number
+;

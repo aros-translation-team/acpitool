@@ -1,0 +1,440 @@
+## version $VER: acpitool.catalog 2.0 (06.08.2026)
+## language svenska
+## codeset 0
+;
+MSG_TITLE
+ACPI Tool
+; ACPI Tool
+;
+MSG_WINTITLE
+ACPI Tool
+; ACPI Tool
+;
+MSG_DESCRIPTION
+ACPI-förfrågningar och hantering
+; ACPI querying and managment
+;
+MSG_ERROR_LOCALE
+Kan inte öppna locale
+; Can't open locale
+;
+MSG_ERROR_OK
+OK
+; Ok
+;
+MSG_ERROR_HEADER
+FEL
+; ERROR
+;
+MSG_ERROR_NO_ACPI
+Den här maskinen har inget ACPI, eller så har ACPI-stödet inaktiverats
+; This machine has no ACPI, or ACPI support has been disabled
+;
+MSG_UNKNOWN
+Okänd
+; Unknown
+;
+MSG_TABLE_SIGNATURE
+Tabellsignatur
+; Table signature
+;
+MSG_REVISION
+Revision
+; Revision
+;
+MSG_OEM_ID
+OEM-ID
+; OEM ID
+;
+MSG_OEM_TABLE_ID
+OEM-tabell-ID
+; OEM Table ID
+;
+MSG_CREATOR_ID
+Skapar-ID
+; Creator ID
+;
+MSG_PM_PROFILE
+Föredragen systemprofil
+; Preferred system profile
+;
+MSG_SCI_INT
+SCI-avbrott
+; SCI interrupt
+;
+MSG_SMI_CMD
+SMI-kommandoregister
+; SMI command register
+;
+MSG_ACPI_ENABLE
+ACPI-aktiveringskommando
+; ACPI Enable command
+;
+MSG_ACPI_DISABLE
+ACPI-inaktiveringskommando
+; ACPI Disable command
+;
+MSG_S4BIOS
+Kommando för S4BIOS-läge
+; Enter S4BIOS state command
+;
+MSG_PSTATE
+Kommando för processorns prestandaläge
+; Processor performance state command
+;
+MSG_FLUSH_SIZE
+Storlek för CPU-cachetömning
+; CPU Cache flush size
+;
+MSG_FLUSH_STRIDE
+Steglängd för CPU-cachetömning
+; CPU Cache flush stride
+;
+MSG_RTC_DAY_ALARM
+RTC-offset för larmdag
+; RTC alarm day offset
+;
+MSG_RTC_MON_ALARM
+RTC-offset för larmmånad
+; RTC alarm month offset
+;
+MSG_RTC_CENTURY
+RTC-offset för århundrade
+; RTC century offset
+;
+MSG_RESET_REG
+Adress till återställningsregister
+; Reset register address
+;
+MSG_RESET_VAL
+Återställningsvärde
+; Reset value
+;
+MSG_UNKNOWN_SIZE
+Okänd storlek
+; Unknown size
+;
+MSG_AT
+vid
+; at
+;
+MSG_BITS
+bitar
+; bits
+;
+MSG_SPACE_FIXED
+Fast hårdvara
+; Fixed hardware
+;
+MSG_SPACE_OEM
+OEM-utrymme
+; OEM space
+;
+MSG_SPACE_UNKNOWN
+Okänt utrymme
+; Unknown space
+;
+MSG_FMT_UNKNOWN_SPACE
+ i okänt utrymme (%u)
+;  in unknown space (%u)
+;
+MSG_FMT_KNOWN_SPACE
+ i %s
+;  in %s
+;
+MSG_YES
+Ja
+; Yes
+;
+MSG_NO
+Nej
+; No
+;
+MSG_PC_FLAGS
+PC-arkitekturflaggor
+; PC Architecture flags
+;
+MSG_FF_FLAGS
+Flaggor för fasta funktioner
+; Fixed Feature flags
+;
+MSG_LAPIC_ADDR
+Lokal APIC-adress
+; Local APIC address
+;
+MSG_PCAT_COMPAT
+Har 8259 PC-AT PIC
+; Has 8259 PC-AT PIC
+;
+MSG_LOCAL_APIC
+Lokal APIC
+; Local APIC
+;
+MSG_CPU_ID
+ACPI-processor-ID
+; ACPI Processor ID
+;
+MSG_LAPIC_ID
+Lokalt APIC-ID
+; Local APIC ID
+;
+MSG_ENABLED
+Påslaget
+; Enabled
+;
+MSG_IOAPIC
+I/O APIC
+; I/O APIC
+;
+MSG_ID
+ID
+; ID
+;
+MSG_ADDRESS
+Adress
+; Address
+;
+MSG_IRQ_BASE
+Global system-IRQ-bas
+; Global system IRQ base
+;
+MSG_INT_SRC_OVR
+Åsidosättning av avbrottskälla
+; Interrupt source override
+;
+MSG_BUS
+  Buss
+;   Bus
+;
+MSG_BUS_IRQ
+Buss-IRQ
+; Bus IRQ
+;
+MSG_GLOBAL_IRQ
+Global system-IRQ
+; Global system IRQ
+;
+MSG_POLARITY
+  Polaritet
+;   Polarity
+;
+MSG_TRIGGER
+  Triggning
+;   Trigger
+;
+MSG_NMI_SRC
+NMI-källa
+; NMI source
+;
+MSG_LAPIC_NMI
+Lokal APIC-NMI
+; Local APIC NMI
+;
+MSG_DEST_ID
+ACPI-ID för målprocessor
+; Destination processor ACPI ID
+;
+MSG_ALL
+Allt
+; All
+;
+MSG_LINT
+Lokal avbrottsingång
+; Local interrupt input
+;
+MSG_LAPIC_ADDR_OVR
+Åsidosättning av lokal APIC-adress
+; Local APIC address override
+;
+MSG_IOSAPIC
+I/O SAPIC
+; I/O SAPIC
+;
+MSG_LSAPIC
+Lokal SAPIC
+; Local SAPIC
+;
+MSG_LSAPIC_ID
+Lokalt SAPIC-ID
+; Local SAPIC ID
+;
+MSG_LSAPIC_EID
+Lokalt SAPIC-EID
+; Local SAPIC EID
+;
+MSG_PLAT_INT_SRC
+Plattformens avbrottskälla
+; Platform interrupt source
+;
+MSG_PLAT_INT_TYPE
+  Avbrottstyp
+;   Interrupt type
+;
+MSG_DEST_LSAPIC_ID
+LSAPIC-ID för mål
+; Destination LSAPIC ID
+;
+MSG_DEST_EID
+LSAPIC-EID för mål
+; Destination LSAPIC EID
+;
+MSG_IOSAPIC_VECTOR
+I/O SAPIC-vektor
+; I/O SAPIC vector
+;
+MSG_CPEI_PROC_OVR
+Åsidosättning av processor för CPE-avbrott
+; CPE interrupt processor override
+;
+MSG_LOCAL_X2APIC
+Lokal X2APIC
+; Local X2APIC
+;
+MSG_X2APIC_ID
+Lokalt X2APIC-ID
+; Local X2APIC ID
+;
+MSG_CPU_UID
+ACPI-processor-UID
+; ACPI Processor UID
+;
+MSG_X2APIC_NMI
+X2APIC-NMI
+; X2APIC NMI
+;
+MSG_UNKNOWN_ENTRY
+Okänd post (%u), %u byte
+; Unknown entry (%u), %u bytes
+;
+MSG_RSDP_ADDR
+RSDP-adress
+; RSDP address
+;
+MSG_SYSTEM_OEM_ID
+System-OEM-ID
+; System OEM ID
+;
+MSG_ACPI_REVISION
+ACPI-revision
+; ACPI Revision
+;
+MSG_HW_REVISION
+Hårdvarurevision
+; Hardware Revision
+;
+MSG_NUM_COMPARATORS
+Antal komparatorer
+; Number of comparators
+;
+MSG_64BIT_COUNTER
+64-bitars räknare
+; 64-bit counter
+;
+MSG_LEGACY_REPLACEMENT
+Stöder legacy-ersättning
+; Legacy replacement capable
+;
+MSG_PCI_VENDOR
+PCI-tillverkar-ID
+; PCI Vendor ID
+;
+MSG_BASE_ADDRESS
+Basadress
+; Base address
+;
+MSG_NUMBER
+Nummer
+; Number
+;
+MSG_MIN_TICK
+Minsta klocktick
+; Minimum clock tick
+;
+MSG_PAGE_PROTECT
+Sidskydd
+; Page protection
+;
+MSG_OEM_ATTRS
+OEM-attribut
+; OEM Attributes
+;
+MSG_SHOW_MODE
+Visa:
+; Show:
+;
+MSG_SAVE_DATA
+Spara data
+; Save data
+;
+MSG_MENU_PROJECT
+Projekt
+; Project
+;
+MSG_MENU_QUIT
+Avsluta
+; Quit
+;
+MSG_MENU_DUMP
+Fullständig dump
+; Full dump
+;
+MSG_MENU_DUMP_PARSED
+Tolkade data
+; Parsed data
+;
+MSG_MENU_DUMP_RAW
+Rå dump
+; Raw dump
+;
+MSG_BATT_WARN
+Varningsnivå
+; Warning level
+;
+MSG_BATT_LOW
+Låg nivå
+; Low level
+;
+MSG_BATT_CRITICAL
+Kritisk nivå
+; Critical level
+;
+MSG_MWH
+mWh
+; mWh
+;
+MSG_CMD_REG
+Kommando-/statusregister
+; Command/status register
+;
+MSG_DATA_REG
+Dataregister
+; Data register
+;
+MSG_UID
+Unikt ID
+; Unique ID
+;
+MSG_SCI_GPE_BIT
+SCI GPE-bit
+; SCI GPE bit
+;
+MSG_NAMESPACE_ID
+Namnrymds-ID
+; Namespace ID
+;
+MSG_MCFG_BASE_ADDRESS
+Basadress
+; Base address
+;
+MSG_MCFG_SEGMENT
+PCI-segmentgruppnummer
+; PCI segment group number
+;
+MSG_MCFG_START_BUS_NUMBER
+Första PCI-bussnummer
+; Starting PCI Bus number
+;
+MSG_MCFG_END_BUS_NUMBER
+Sista PCI-bussnummer
+; Final PCI Bus number
+;

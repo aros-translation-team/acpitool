@@ -1,0 +1,440 @@
+## version $VER: acpitool.catalog 2.0 (06.08.2026)
+## language hrvatski
+## codeset 5
+;
+MSG_TITLE
+ACPI Alat
+; ACPI Tool
+;
+MSG_WINTITLE
+ACPI Alat
+; ACPI Tool
+;
+MSG_DESCRIPTION
+Ispitivanje i upravljanje ACPI-jem
+; ACPI querying and managment
+;
+MSG_ERROR_LOCALE
+Ne mogu otvoriti locale
+; Can't open locale
+;
+MSG_ERROR_OK
+U redu
+; Ok
+;
+MSG_ERROR_HEADER
+POGRE©KA
+; ERROR
+;
+MSG_ERROR_NO_ACPI
+Ovo raèunalo nema ACPI ili je podr¹ka za ACPI iskljuèena
+; This machine has no ACPI, or ACPI support has been disabled
+;
+MSG_UNKNOWN
+Nepoznato
+; Unknown
+;
+MSG_TABLE_SIGNATURE
+Potpis tablice
+; Table signature
+;
+MSG_REVISION
+Revizija
+; Revision
+;
+MSG_OEM_ID
+OEM ID
+; OEM ID
+;
+MSG_OEM_TABLE_ID
+ID OEM tablice
+; OEM Table ID
+;
+MSG_CREATOR_ID
+ID tvorca
+; Creator ID
+;
+MSG_PM_PROFILE
+Preferirani profil sustava
+; Preferred system profile
+;
+MSG_SCI_INT
+SCI prekid
+; SCI interrupt
+;
+MSG_SMI_CMD
+SMI registar naredbi
+; SMI command register
+;
+MSG_ACPI_ENABLE
+Naredba za ukljuèivanje ACPI-ja
+; ACPI Enable command
+;
+MSG_ACPI_DISABLE
+Naredba za iskljuèivanje ACPI-ja
+; ACPI Disable command
+;
+MSG_S4BIOS
+Naredba za ulazak u S4BIOS stanje
+; Enter S4BIOS state command
+;
+MSG_PSTATE
+Naredba stanja performansi procesora
+; Processor performance state command
+;
+MSG_FLUSH_SIZE
+Velièina pra¾njenja CPU predmemorije
+; CPU Cache flush size
+;
+MSG_FLUSH_STRIDE
+Korak pra¾njenja CPU predmemorije
+; CPU Cache flush stride
+;
+MSG_RTC_DAY_ALARM
+RTC pomak dana alarma
+; RTC alarm day offset
+;
+MSG_RTC_MON_ALARM
+RTC pomak mjeseca alarma
+; RTC alarm month offset
+;
+MSG_RTC_CENTURY
+RTC pomak stoljeæa
+; RTC century offset
+;
+MSG_RESET_REG
+Adresa registra za reset
+; Reset register address
+;
+MSG_RESET_VAL
+Vrijednost reseta
+; Reset value
+;
+MSG_UNKNOWN_SIZE
+Nepoznata velièina
+; Unknown size
+;
+MSG_AT
+na
+; at
+;
+MSG_BITS
+bita
+; bits
+;
+MSG_SPACE_FIXED
+Fiksno sklopovlje
+; Fixed hardware
+;
+MSG_SPACE_OEM
+OEM prostor
+; OEM space
+;
+MSG_SPACE_UNKNOWN
+Nepoznat prostor
+; Unknown space
+;
+MSG_FMT_UNKNOWN_SPACE
+ u nepoznatom prostoru (%u)
+;  in unknown space (%u)
+;
+MSG_FMT_KNOWN_SPACE
+ u %s
+;  in %s
+;
+MSG_YES
+Da
+; Yes
+;
+MSG_NO
+Ne
+; No
+;
+MSG_PC_FLAGS
+Zastavice PC arhitekture
+; PC Architecture flags
+;
+MSG_FF_FLAGS
+Zastavice fiksnih znaèajki
+; Fixed Feature flags
+;
+MSG_LAPIC_ADDR
+Adresa lokalnog APIC-a
+; Local APIC address
+;
+MSG_PCAT_COMPAT
+Ima 8259 PC-AT PIC
+; Has 8259 PC-AT PIC
+;
+MSG_LOCAL_APIC
+Lokalni APIC
+; Local APIC
+;
+MSG_CPU_ID
+ACPI ID procesora
+; ACPI Processor ID
+;
+MSG_LAPIC_ID
+ID lokalnog APIC-a
+; Local APIC ID
+;
+MSG_ENABLED
+Ukljuèen
+; Enabled
+;
+MSG_IOAPIC
+I/O APIC
+; I/O APIC
+;
+MSG_ID
+ID
+; ID
+;
+MSG_ADDRESS
+IP
+; Address
+;
+MSG_IRQ_BASE
+Baza globalnih sustavskih IRQ-ova
+; Global system IRQ base
+;
+MSG_INT_SRC_OVR
+Premo¹æenje izvora prekida
+; Interrupt source override
+;
+MSG_BUS
+  Sabirnica
+;   Bus
+;
+MSG_BUS_IRQ
+IRQ sabirnice
+; Bus IRQ
+;
+MSG_GLOBAL_IRQ
+Globalni sustavski IRQ
+; Global system IRQ
+;
+MSG_POLARITY
+  Polaritet
+;   Polarity
+;
+MSG_TRIGGER
+  Okidaè
+;   Trigger
+;
+MSG_NMI_SRC
+Izvor NMI-ja
+; NMI source
+;
+MSG_LAPIC_NMI
+NMI lokalnog APIC-a
+; Local APIC NMI
+;
+MSG_DEST_ID
+ACPI ID odredi¹nog procesora
+; Destination processor ACPI ID
+;
+MSG_ALL
+Sve
+; All
+;
+MSG_LINT
+Ulaz lokalnog prekida
+; Local interrupt input
+;
+MSG_LAPIC_ADDR_OVR
+Premo¹æenje adrese lokalnog APIC-a
+; Local APIC address override
+;
+MSG_IOSAPIC
+I/O SAPIC
+; I/O SAPIC
+;
+MSG_LSAPIC
+Lokalni SAPIC
+; Local SAPIC
+;
+MSG_LSAPIC_ID
+ID lokalnog SAPIC-a
+; Local SAPIC ID
+;
+MSG_LSAPIC_EID
+EID lokalnog SAPIC-a
+; Local SAPIC EID
+;
+MSG_PLAT_INT_SRC
+Izvor prekida platforme
+; Platform interrupt source
+;
+MSG_PLAT_INT_TYPE
+  Tip prekida
+;   Interrupt type
+;
+MSG_DEST_LSAPIC_ID
+Odredi¹ni LSAPIC ID
+; Destination LSAPIC ID
+;
+MSG_DEST_EID
+Odredi¹ni LSAPIC EID
+; Destination LSAPIC EID
+;
+MSG_IOSAPIC_VECTOR
+I/O SAPIC vektor
+; I/O SAPIC vector
+;
+MSG_CPEI_PROC_OVR
+Premo¹æenje procesora CPE prekida
+; CPE interrupt processor override
+;
+MSG_LOCAL_X2APIC
+Lokalni X2APIC
+; Local X2APIC
+;
+MSG_X2APIC_ID
+ID lokalnog X2APIC-a
+; Local X2APIC ID
+;
+MSG_CPU_UID
+ACPI UID procesora
+; ACPI Processor UID
+;
+MSG_X2APIC_NMI
+X2APIC NMI
+; X2APIC NMI
+;
+MSG_UNKNOWN_ENTRY
+Nepoznat unos (%u), %u bajtova
+; Unknown entry (%u), %u bytes
+;
+MSG_RSDP_ADDR
+RSDP adresa
+; RSDP address
+;
+MSG_SYSTEM_OEM_ID
+OEM ID sustava
+; System OEM ID
+;
+MSG_ACPI_REVISION
+ACPI revizija
+; ACPI Revision
+;
+MSG_HW_REVISION
+Revizija sklopovlja
+; Hardware Revision
+;
+MSG_NUM_COMPARATORS
+Broj komparatora
+; Number of comparators
+;
+MSG_64BIT_COUNTER
+64-bitni brojaè
+; 64-bit counter
+;
+MSG_LEGACY_REPLACEMENT
+Podr¾ava naslijeðenu zamjenu
+; Legacy replacement capable
+;
+MSG_PCI_VENDOR
+PCI ID proizvoðaèa
+; PCI Vendor ID
+;
+MSG_BASE_ADDRESS
+Bazna adresa
+; Base address
+;
+MSG_NUMBER
+Broj
+; Number
+;
+MSG_MIN_TICK
+Najmanji otkucaj sata
+; Minimum clock tick
+;
+MSG_PAGE_PROTECT
+Za¹tita stranica
+; Page protection
+;
+MSG_OEM_ATTRS
+OEM atributi
+; OEM Attributes
+;
+MSG_SHOW_MODE
+Prika¾i:
+; Show:
+;
+MSG_SAVE_DATA
+Spremi podatke
+; Save data
+;
+MSG_MENU_PROJECT
+Projekt
+; Project
+;
+MSG_MENU_QUIT
+Izlaz
+; Quit
+;
+MSG_MENU_DUMP
+Puni ispis
+; Full dump
+;
+MSG_MENU_DUMP_PARSED
+Ra¹èlanjeni podaci
+; Parsed data
+;
+MSG_MENU_DUMP_RAW
+Sirovi ispis
+; Raw dump
+;
+MSG_BATT_WARN
+Razina upozorenja
+; Warning level
+;
+MSG_BATT_LOW
+Niska razina
+; Low level
+;
+MSG_BATT_CRITICAL
+Kritièna razina
+; Critical level
+;
+MSG_MWH
+mWh
+; mWh
+;
+MSG_CMD_REG
+Registar naredbi/stanja
+; Command/status register
+;
+MSG_DATA_REG
+Registar podataka
+; Data register
+;
+MSG_UID
+Jedinstveni ID
+; Unique ID
+;
+MSG_SCI_GPE_BIT
+SCI GPE bit
+; SCI GPE bit
+;
+MSG_NAMESPACE_ID
+ID imenskog prostora
+; Namespace ID
+;
+MSG_MCFG_BASE_ADDRESS
+Bazna adresa
+; Base address
+;
+MSG_MCFG_SEGMENT
+Broj grupe PCI segmenata
+; PCI segment group number
+;
+MSG_MCFG_START_BUS_NUMBER
+Broj poèetne PCI sabirnice
+; Starting PCI Bus number
+;
+MSG_MCFG_END_BUS_NUMBER
+Broj zadnje PCI sabirnice
+; Final PCI Bus number
+;

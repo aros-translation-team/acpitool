@@ -1,0 +1,440 @@
+## version $VER: acpitool.catalog 2.0 (06.08.2026)
+## language português
+## codeset 0
+;
+MSG_TITLE
+ACPI Tool
+; ACPI Tool
+;
+MSG_WINTITLE
+ACPI Tool
+; ACPI Tool
+;
+MSG_DESCRIPTION
+Consulta e gestão do ACPI
+; ACPI querying and managment
+;
+MSG_ERROR_LOCALE
+Não é possível abrir o locale
+; Can't open locale
+;
+MSG_ERROR_OK
+Aceitar
+; Ok
+;
+MSG_ERROR_HEADER
+ERRO
+; ERROR
+;
+MSG_ERROR_NO_ACPI
+Esta máquina não tem ACPI, ou o suporte de ACPI foi desactivado
+; This machine has no ACPI, or ACPI support has been disabled
+;
+MSG_UNKNOWN
+Desconhecido
+; Unknown
+;
+MSG_TABLE_SIGNATURE
+Assinatura da tabela
+; Table signature
+;
+MSG_REVISION
+Revisão
+; Revision
+;
+MSG_OEM_ID
+ID OEM
+; OEM ID
+;
+MSG_OEM_TABLE_ID
+ID da tabela OEM
+; OEM Table ID
+;
+MSG_CREATOR_ID
+ID do criador
+; Creator ID
+;
+MSG_PM_PROFILE
+Perfil de sistema preferido
+; Preferred system profile
+;
+MSG_SCI_INT
+Interrupção SCI
+; SCI interrupt
+;
+MSG_SMI_CMD
+Registo de comandos SMI
+; SMI command register
+;
+MSG_ACPI_ENABLE
+Comando de activação do ACPI
+; ACPI Enable command
+;
+MSG_ACPI_DISABLE
+Comando de desactivação do ACPI
+; ACPI Disable command
+;
+MSG_S4BIOS
+Comando para entrar no estado S4BIOS
+; Enter S4BIOS state command
+;
+MSG_PSTATE
+Comando de estado de desempenho do processador
+; Processor performance state command
+;
+MSG_FLUSH_SIZE
+Tamanho do flush da cache do CPU
+; CPU Cache flush size
+;
+MSG_FLUSH_STRIDE
+Passo do flush da cache do CPU
+; CPU Cache flush stride
+;
+MSG_RTC_DAY_ALARM
+Deslocamento do dia de alarme no RTC
+; RTC alarm day offset
+;
+MSG_RTC_MON_ALARM
+Deslocamento do mês de alarme no RTC
+; RTC alarm month offset
+;
+MSG_RTC_CENTURY
+Deslocamento do século no RTC
+; RTC century offset
+;
+MSG_RESET_REG
+Endereço do registo de reset
+; Reset register address
+;
+MSG_RESET_VAL
+Valor de reset
+; Reset value
+;
+MSG_UNKNOWN_SIZE
+Tamanho desconhecido
+; Unknown size
+;
+MSG_AT
+em
+; at
+;
+MSG_BITS
+bits
+; bits
+;
+MSG_SPACE_FIXED
+Hardware fixo
+; Fixed hardware
+;
+MSG_SPACE_OEM
+Espaço OEM
+; OEM space
+;
+MSG_SPACE_UNKNOWN
+Espaço desconhecido
+; Unknown space
+;
+MSG_FMT_UNKNOWN_SPACE
+ em espaço desconhecido (%u)
+;  in unknown space (%u)
+;
+MSG_FMT_KNOWN_SPACE
+ em %s
+;  in %s
+;
+MSG_YES
+Sim
+; Yes
+;
+MSG_NO
+Não
+; No
+;
+MSG_PC_FLAGS
+Flags da arquitectura PC
+; PC Architecture flags
+;
+MSG_FF_FLAGS
+Flags de funcionalidades fixas
+; Fixed Feature flags
+;
+MSG_LAPIC_ADDR
+Endereço do APIC local
+; Local APIC address
+;
+MSG_PCAT_COMPAT
+Tem PIC 8259 PC-AT
+; Has 8259 PC-AT PIC
+;
+MSG_LOCAL_APIC
+APIC local
+; Local APIC
+;
+MSG_CPU_ID
+ID do processador ACPI
+; ACPI Processor ID
+;
+MSG_LAPIC_ID
+ID do APIC local
+; Local APIC ID
+;
+MSG_ENABLED
+Ligado
+; Enabled
+;
+MSG_IOAPIC
+I/O APIC
+; I/O APIC
+;
+MSG_ID
+ID
+; ID
+;
+MSG_ADDRESS
+Endereço
+; Address
+;
+MSG_IRQ_BASE
+Base do IRQ global do sistema
+; Global system IRQ base
+;
+MSG_INT_SRC_OVR
+Substituição da fonte de interrupção
+; Interrupt source override
+;
+MSG_BUS
+  Barramento
+;   Bus
+;
+MSG_BUS_IRQ
+IRQ do barramento
+; Bus IRQ
+;
+MSG_GLOBAL_IRQ
+IRQ global do sistema
+; Global system IRQ
+;
+MSG_POLARITY
+  Polaridade
+;   Polarity
+;
+MSG_TRIGGER
+  Disparo
+;   Trigger
+;
+MSG_NMI_SRC
+Fonte de NMI
+; NMI source
+;
+MSG_LAPIC_NMI
+NMI do APIC local
+; Local APIC NMI
+;
+MSG_DEST_ID
+ID ACPI do processador de destino
+; Destination processor ACPI ID
+;
+MSG_ALL
+Todos
+; All
+;
+MSG_LINT
+Entrada de interrupção local
+; Local interrupt input
+;
+MSG_LAPIC_ADDR_OVR
+Substituição do endereço do APIC local
+; Local APIC address override
+;
+MSG_IOSAPIC
+I/O SAPIC
+; I/O SAPIC
+;
+MSG_LSAPIC
+SAPIC local
+; Local SAPIC
+;
+MSG_LSAPIC_ID
+ID do SAPIC local
+; Local SAPIC ID
+;
+MSG_LSAPIC_EID
+EID do SAPIC local
+; Local SAPIC EID
+;
+MSG_PLAT_INT_SRC
+Fonte de interrupção da plataforma
+; Platform interrupt source
+;
+MSG_PLAT_INT_TYPE
+  Tipo de interrupção
+;   Interrupt type
+;
+MSG_DEST_LSAPIC_ID
+ID do LSAPIC de destino
+; Destination LSAPIC ID
+;
+MSG_DEST_EID
+EID do LSAPIC de destino
+; Destination LSAPIC EID
+;
+MSG_IOSAPIC_VECTOR
+Vector do I/O SAPIC
+; I/O SAPIC vector
+;
+MSG_CPEI_PROC_OVR
+Substituição do processador de interrupções CPE
+; CPE interrupt processor override
+;
+MSG_LOCAL_X2APIC
+X2APIC local
+; Local X2APIC
+;
+MSG_X2APIC_ID
+ID do X2APIC local
+; Local X2APIC ID
+;
+MSG_CPU_UID
+UID do processador ACPI
+; ACPI Processor UID
+;
+MSG_X2APIC_NMI
+NMI do X2APIC
+; X2APIC NMI
+;
+MSG_UNKNOWN_ENTRY
+Entrada desconhecida (%u), %u bytes
+; Unknown entry (%u), %u bytes
+;
+MSG_RSDP_ADDR
+Endereço do RSDP
+; RSDP address
+;
+MSG_SYSTEM_OEM_ID
+ID OEM do sistema
+; System OEM ID
+;
+MSG_ACPI_REVISION
+Revisão ACPI
+; ACPI Revision
+;
+MSG_HW_REVISION
+Revisão do hardware
+; Hardware Revision
+;
+MSG_NUM_COMPARATORS
+Número de comparadores
+; Number of comparators
+;
+MSG_64BIT_COUNTER
+Contador de 64 bits
+; 64-bit counter
+;
+MSG_LEGACY_REPLACEMENT
+Suporta substituição do modo legacy
+; Legacy replacement capable
+;
+MSG_PCI_VENDOR
+ID do fabricante PCI
+; PCI Vendor ID
+;
+MSG_BASE_ADDRESS
+Endereço base
+; Base address
+;
+MSG_NUMBER
+Número
+; Number
+;
+MSG_MIN_TICK
+Tick mínimo do relógio
+; Minimum clock tick
+;
+MSG_PAGE_PROTECT
+Protecção de páginas
+; Page protection
+;
+MSG_OEM_ATTRS
+Atributos OEM
+; OEM Attributes
+;
+MSG_SHOW_MODE
+Mostrar:
+; Show:
+;
+MSG_SAVE_DATA
+Guardar dados
+; Save data
+;
+MSG_MENU_PROJECT
+Projecto
+; Project
+;
+MSG_MENU_QUIT
+Sair
+; Quit
+;
+MSG_MENU_DUMP
+Dump completo
+; Full dump
+;
+MSG_MENU_DUMP_PARSED
+Dados analisados
+; Parsed data
+;
+MSG_MENU_DUMP_RAW
+Dump em bruto
+; Raw dump
+;
+MSG_BATT_WARN
+Nível de aviso
+; Warning level
+;
+MSG_BATT_LOW
+Nível baixo
+; Low level
+;
+MSG_BATT_CRITICAL
+Nível crítico
+; Critical level
+;
+MSG_MWH
+mWh
+; mWh
+;
+MSG_CMD_REG
+Registo de comando/estado
+; Command/status register
+;
+MSG_DATA_REG
+Registo de dados
+; Data register
+;
+MSG_UID
+ID único
+; Unique ID
+;
+MSG_SCI_GPE_BIT
+Bit GPE do SCI
+; SCI GPE bit
+;
+MSG_NAMESPACE_ID
+ID do namespace
+; Namespace ID
+;
+MSG_MCFG_BASE_ADDRESS
+Endereço base
+; Base address
+;
+MSG_MCFG_SEGMENT
+Número do grupo de segmentos PCI
+; PCI segment group number
+;
+MSG_MCFG_START_BUS_NUMBER
+Número inicial do barramento PCI
+; Starting PCI Bus number
+;
+MSG_MCFG_END_BUS_NUMBER
+Número final do barramento PCI
+; Final PCI Bus number
+;

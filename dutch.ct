@@ -1,0 +1,440 @@
+## version $VER: acpitool.catalog 2.0 (06.08.2026)
+## language nederlands
+## codeset 0
+;
+MSG_TITLE
+ACPI Tool
+; ACPI Tool
+;
+MSG_WINTITLE
+ACPI Tool
+; ACPI Tool
+;
+MSG_DESCRIPTION
+ACPI opvragen en beheren
+; ACPI querying and managment
+;
+MSG_ERROR_LOCALE
+Kan locale niet openen
+; Can't open locale
+;
+MSG_ERROR_OK
+Ok
+; Ok
+;
+MSG_ERROR_HEADER
+FOUT
+; ERROR
+;
+MSG_ERROR_NO_ACPI
+Deze machine heeft geen ACPI, of ACPI-ondersteuning is uitgeschakeld
+; This machine has no ACPI, or ACPI support has been disabled
+;
+MSG_UNKNOWN
+Onbekend
+; Unknown
+;
+MSG_TABLE_SIGNATURE
+Tabelsignatuur
+; Table signature
+;
+MSG_REVISION
+Revisie
+; Revision
+;
+MSG_OEM_ID
+OEM ID
+; OEM ID
+;
+MSG_OEM_TABLE_ID
+OEM Tabel ID
+; OEM Table ID
+;
+MSG_CREATOR_ID
+Maker ID
+; Creator ID
+;
+MSG_PM_PROFILE
+Voorkeurssysteemprofiel
+; Preferred system profile
+;
+MSG_SCI_INT
+SCI-interrupt
+; SCI interrupt
+;
+MSG_SMI_CMD
+SMI-commandoregister
+; SMI command register
+;
+MSG_ACPI_ENABLE
+ACPI-inschakelcommando
+; ACPI Enable command
+;
+MSG_ACPI_DISABLE
+ACPI-uitschakelcommando
+; ACPI Disable command
+;
+MSG_S4BIOS
+Commando voor S4BIOS-toestand
+; Enter S4BIOS state command
+;
+MSG_PSTATE
+Commando voor processorprestatietoestand
+; Processor performance state command
+;
+MSG_FLUSH_SIZE
+Grootte van CPU-cache flush
+; CPU Cache flush size
+;
+MSG_FLUSH_STRIDE
+Stap van CPU-cache flush
+; CPU Cache flush stride
+;
+MSG_RTC_DAY_ALARM
+RTC alarmdag-offset
+; RTC alarm day offset
+;
+MSG_RTC_MON_ALARM
+RTC alarmmaand-offset
+; RTC alarm month offset
+;
+MSG_RTC_CENTURY
+RTC eeuw-offset
+; RTC century offset
+;
+MSG_RESET_REG
+Adres van resetregister
+; Reset register address
+;
+MSG_RESET_VAL
+Resetwaarde
+; Reset value
+;
+MSG_UNKNOWN_SIZE
+Onbekende grootte
+; Unknown size
+;
+MSG_AT
+op
+; at
+;
+MSG_BITS
+bits
+; bits
+;
+MSG_SPACE_FIXED
+Vaste hardware
+; Fixed hardware
+;
+MSG_SPACE_OEM
+OEM-ruimte
+; OEM space
+;
+MSG_SPACE_UNKNOWN
+Onbekende ruimte
+; Unknown space
+;
+MSG_FMT_UNKNOWN_SPACE
+ in onbekende ruimte (%u)
+;  in unknown space (%u)
+;
+MSG_FMT_KNOWN_SPACE
+ in %s
+;  in %s
+;
+MSG_YES
+Ja
+; Yes
+;
+MSG_NO
+Nee
+; No
+;
+MSG_PC_FLAGS
+PC-architectuurvlaggen
+; PC Architecture flags
+;
+MSG_FF_FLAGS
+Vaste functievlaggen
+; Fixed Feature flags
+;
+MSG_LAPIC_ADDR
+Lokaal APIC-adres
+; Local APIC address
+;
+MSG_PCAT_COMPAT
+Heeft 8259 PC-AT PIC
+; Has 8259 PC-AT PIC
+;
+MSG_LOCAL_APIC
+Lokale APIC
+; Local APIC
+;
+MSG_CPU_ID
+ACPI processor-ID
+; ACPI Processor ID
+;
+MSG_LAPIC_ID
+Lokale APIC-ID
+; Local APIC ID
+;
+MSG_ENABLED
+Ingeschakeld
+; Enabled
+;
+MSG_IOAPIC
+I/O APIC
+; I/O APIC
+;
+MSG_ID
+ID
+; ID
+;
+MSG_ADDRESS
+Adres
+; Address
+;
+MSG_IRQ_BASE
+Globale systeem-IRQ basis
+; Global system IRQ base
+;
+MSG_INT_SRC_OVR
+Overschrijving interruptbron
+; Interrupt source override
+;
+MSG_BUS
+  Bus
+;   Bus
+;
+MSG_BUS_IRQ
+Bus-IRQ
+; Bus IRQ
+;
+MSG_GLOBAL_IRQ
+Globale systeem-IRQ
+; Global system IRQ
+;
+MSG_POLARITY
+  Polariteit
+;   Polarity
+;
+MSG_TRIGGER
+  Trigger
+;   Trigger
+;
+MSG_NMI_SRC
+NMI-bron
+; NMI source
+;
+MSG_LAPIC_NMI
+Lokale APIC NMI
+; Local APIC NMI
+;
+MSG_DEST_ID
+ACPI-ID van doelprocessor
+; Destination processor ACPI ID
+;
+MSG_ALL
+Alles
+; All
+;
+MSG_LINT
+Lokale interruptingang
+; Local interrupt input
+;
+MSG_LAPIC_ADDR_OVR
+Overschrijving lokaal APIC-adres
+; Local APIC address override
+;
+MSG_IOSAPIC
+I/O SAPIC
+; I/O SAPIC
+;
+MSG_LSAPIC
+Lokale SAPIC
+; Local SAPIC
+;
+MSG_LSAPIC_ID
+Lokale SAPIC-ID
+; Local SAPIC ID
+;
+MSG_LSAPIC_EID
+Lokale SAPIC-EID
+; Local SAPIC EID
+;
+MSG_PLAT_INT_SRC
+Platform-interruptbron
+; Platform interrupt source
+;
+MSG_PLAT_INT_TYPE
+  Interrupttype
+;   Interrupt type
+;
+MSG_DEST_LSAPIC_ID
+Doel LSAPIC-ID
+; Destination LSAPIC ID
+;
+MSG_DEST_EID
+Doel LSAPIC-EID
+; Destination LSAPIC EID
+;
+MSG_IOSAPIC_VECTOR
+I/O SAPIC-vector
+; I/O SAPIC vector
+;
+MSG_CPEI_PROC_OVR
+CPE-interrupt processoroverschrijving
+; CPE interrupt processor override
+;
+MSG_LOCAL_X2APIC
+Lokale X2APIC
+; Local X2APIC
+;
+MSG_X2APIC_ID
+Lokale X2APIC-ID
+; Local X2APIC ID
+;
+MSG_CPU_UID
+ACPI processor-UID
+; ACPI Processor UID
+;
+MSG_X2APIC_NMI
+X2APIC NMI
+; X2APIC NMI
+;
+MSG_UNKNOWN_ENTRY
+Onbekend item (%u), %u bytes
+; Unknown entry (%u), %u bytes
+;
+MSG_RSDP_ADDR
+RSDP-adres
+; RSDP address
+;
+MSG_SYSTEM_OEM_ID
+Systeem-OEM-ID
+; System OEM ID
+;
+MSG_ACPI_REVISION
+ACPI-revisie
+; ACPI Revision
+;
+MSG_HW_REVISION
+Hardwarerevisie
+; Hardware Revision
+;
+MSG_NUM_COMPARATORS
+Aantal comparatoren
+; Number of comparators
+;
+MSG_64BIT_COUNTER
+64-bits teller
+; 64-bit counter
+;
+MSG_LEGACY_REPLACEMENT
+Geschikt voor legacy-vervanging
+; Legacy replacement capable
+;
+MSG_PCI_VENDOR
+PCI-fabrikant-ID
+; PCI Vendor ID
+;
+MSG_BASE_ADDRESS
+Basisadres
+; Base address
+;
+MSG_NUMBER
+Nummer
+; Number
+;
+MSG_MIN_TICK
+Minimale kloktik
+; Minimum clock tick
+;
+MSG_PAGE_PROTECT
+Paginabeveiliging
+; Page protection
+;
+MSG_OEM_ATTRS
+OEM-attributen
+; OEM Attributes
+;
+MSG_SHOW_MODE
+Toon:
+; Show:
+;
+MSG_SAVE_DATA
+Gegevens bewaren
+; Save data
+;
+MSG_MENU_PROJECT
+Project
+; Project
+;
+MSG_MENU_QUIT
+Einde
+; Quit
+;
+MSG_MENU_DUMP
+Volledige dump
+; Full dump
+;
+MSG_MENU_DUMP_PARSED
+Verwerkte gegevens
+; Parsed data
+;
+MSG_MENU_DUMP_RAW
+Ruwe dump
+; Raw dump
+;
+MSG_BATT_WARN
+Waarschuwingsniveau
+; Warning level
+;
+MSG_BATT_LOW
+Laag niveau
+; Low level
+;
+MSG_BATT_CRITICAL
+Kritiek niveau
+; Critical level
+;
+MSG_MWH
+mWh
+; mWh
+;
+MSG_CMD_REG
+Commando-/statusregister
+; Command/status register
+;
+MSG_DATA_REG
+Dataregister
+; Data register
+;
+MSG_UID
+Uniek ID
+; Unique ID
+;
+MSG_SCI_GPE_BIT
+SCI GPE-bit
+; SCI GPE bit
+;
+MSG_NAMESPACE_ID
+Namespace-ID
+; Namespace ID
+;
+MSG_MCFG_BASE_ADDRESS
+Basisadres
+; Base address
+;
+MSG_MCFG_SEGMENT
+PCI-segmentgroepnummer
+; PCI segment group number
+;
+MSG_MCFG_START_BUS_NUMBER
+Eerste PCI-busnummer
+; Starting PCI Bus number
+;
+MSG_MCFG_END_BUS_NUMBER
+Laatste PCI-busnummer
+; Final PCI Bus number
+;
