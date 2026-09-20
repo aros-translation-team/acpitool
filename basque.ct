@@ -13,7 +13,7 @@ ACPI aplikazioa
 ;
 MSG_DESCRIPTION
 ACPI kontsulta eta kudeaketa
-; ACPI Consulta y gestion de ACPI
+; ACPI querying and managment
 ;
 MSG_ERROR_LOCALE
 Ez daukat locale irekitzerik
